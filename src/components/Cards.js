@@ -6,7 +6,7 @@ let Cards = ({ questions, answers, onChange, onSubmitClick }) => {
       <p style={{ color: "white" }}>{question.question}</p>
       <label>
         <input
-          style={{ textAlign: "right" }}
+          style={{ textAlign: "right", width: "3rem" }}
           className="input"
           type="number"
           value={answers[index]}
