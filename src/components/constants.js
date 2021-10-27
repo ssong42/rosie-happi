@@ -1,0 +1,6 @@
+let NEW = 0;
+let CALCULATING = 1;
+let FINISHED = 2;
+
+
+export { NEW, CALCULATING, FINISHED}
