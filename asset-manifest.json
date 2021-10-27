@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Rosie-Equation-Of-Happiness/static/css/main.6962019f.chunk.css",
-    "main.js": "/Rosie-Equation-Of-Happiness/static/js/main.edcc56b3.chunk.js",
-    "main.js.map": "/Rosie-Equation-Of-Happiness/static/js/main.edcc56b3.chunk.js.map",
-    "runtime-main.js": "/Rosie-Equation-Of-Happiness/static/js/runtime-main.b09b54a9.js",
-    "runtime-main.js.map": "/Rosie-Equation-Of-Happiness/static/js/runtime-main.b09b54a9.js.map",
-    "static/js/2.331cc5b3.chunk.js": "/Rosie-Equation-Of-Happiness/static/js/2.331cc5b3.chunk.js",
-    "static/js/2.331cc5b3.chunk.js.map": "/Rosie-Equation-Of-Happiness/static/js/2.331cc5b3.chunk.js.map",
-    "static/js/3.673a6e06.chunk.js": "/Rosie-Equation-Of-Happiness/static/js/3.673a6e06.chunk.js",
-    "static/js/3.673a6e06.chunk.js.map": "/Rosie-Equation-Of-Happiness/static/js/3.673a6e06.chunk.js.map",
-    "index.html": "/Rosie-Equation-Of-Happiness/index.html",
-    "static/css/main.6962019f.chunk.css.map": "/Rosie-Equation-Of-Happiness/static/css/main.6962019f.chunk.css.map",
-    "static/js/2.331cc5b3.chunk.js.LICENSE.txt": "/Rosie-Equation-Of-Happiness/static/js/2.331cc5b3.chunk.js.LICENSE.txt"
+    "main.css": "/rosie-happi/static/css/main.6962019f.chunk.css",
+    "main.js": "/rosie-happi/static/js/main.edcc56b3.chunk.js",
+    "main.js.map": "/rosie-happi/static/js/main.edcc56b3.chunk.js.map",
+    "runtime-main.js": "/rosie-happi/static/js/runtime-main.4469fd98.js",
+    "runtime-main.js.map": "/rosie-happi/static/js/runtime-main.4469fd98.js.map",
+    "static/js/2.387f2ced.chunk.js": "/rosie-happi/static/js/2.387f2ced.chunk.js",
+    "static/js/2.387f2ced.chunk.js.map": "/rosie-happi/static/js/2.387f2ced.chunk.js.map",
+    "static/js/3.673a6e06.chunk.js": "/rosie-happi/static/js/3.673a6e06.chunk.js",
+    "static/js/3.673a6e06.chunk.js.map": "/rosie-happi/static/js/3.673a6e06.chunk.js.map",
+    "index.html": "/rosie-happi/index.html",
+    "static/css/main.6962019f.chunk.css.map": "/rosie-happi/static/css/main.6962019f.chunk.css.map",
+    "static/js/2.387f2ced.chunk.js.LICENSE.txt": "/rosie-happi/static/js/2.387f2ced.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b09b54a9.js",
-    "static/js/2.331cc5b3.chunk.js",
+    "static/js/runtime-main.4469fd98.js",
+    "static/js/2.387f2ced.chunk.js",
     "static/css/main.6962019f.chunk.css",
     "static/js/main.edcc56b3.chunk.js"
   ]
