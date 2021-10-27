@@ -58,14 +58,17 @@ body {
 .loadingContainer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
 .loadingThing {
   margin: 2rem;
-  width: 100px;
-  height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
   padding: 2rem;
   border: 1px solid #DFAE9F;
   border-radius: 20px;
