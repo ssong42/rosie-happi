@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  background-color: #EBDABA;
+  background-color: #ebdaba;
 }
 
 .header {
-  background-color: #DFAE9F;
+  background-color: #dfae9f;
   height: 100px;
   display: flex;
   justify-content: left;
@@ -18,7 +18,7 @@ body {
 }
 
 .equation {
-  color: #C19999;
+  color: #c19999;
   font-size: 26px;
   margin: 4rem 4rem 2rem 4rem;
 }
@@ -27,7 +27,7 @@ body {
   width: 30%;
   padding: 2rem;
   margin: 2rem;
-  background-color: #DFAE9F;
+  background-color: #dfae9f;
   box-shadow: 10px 5px 5px saddlebrown;
   border-radius: 20px;
 }
@@ -48,7 +48,7 @@ body {
 .submit {
   height: 50px;
   width: 150px;
-  background-color: #DFAE9F;
+  background-color: #dfae9f;
   color: white;
   border-radius: 1rem;
   margin-top: 2rem;
@@ -70,7 +70,105 @@ body {
   min-height: 100px;
   max-height: 100px;
   padding: 2rem;
-  border: 1px solid #DFAE9F;
+  border: 1px solid #dfae9f;
   border-radius: 20px;
   position: relative;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px dotted #dfae9f;
+  width: 80%;
+}
+
+.historyDate {
+  font-weight: 800;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #9bb9e8, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;  font-size: small;
+}
+
+.historyText {
+  font-weight: 800;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #9bb9e8, #af4261);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;  font-size: medium;
+}
+
+.historyContainer {
+  display: flex;
+  margin: auto;
+  width: 40%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.historyEmoji  {
+  margin: 2rem;
+}
+
+.sideNav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0; /* Stay at the top */
+  left: 0;
+  z-index: 1;
+  background-color: #dfae9f; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.close {
+  width: 0px;
+}
+
+/* The navigation menu links */
+.sidenav Link{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav Link:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.menuIcon {
+  filter: invert(99%) sepia(92%) saturate(1%) hue-rotate(252deg) brightness(109%) contrast(100%);
+  cursor: pointer;
+}
+
+.menuIconDiv {
+  margin-left: 2rem;
+}
+
+.navbarLink {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
 }
